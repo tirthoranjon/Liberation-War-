@@ -27,7 +27,7 @@ footer .container .row img{
 }
 #Heighlight .card:hover{
     background-color:aquamarine;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 #photograph img{
@@ -39,7 +39,7 @@ footer .container .row img{
 }
 .card:hover{
     background-color: aquamarine;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 #breadcumb{
@@ -58,11 +58,20 @@ footer .container .row img{
 
  .card-img{
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
  .card:hover .card-img img{
     transform: scale(1.10);
 }
 .card-img img{
     height: 350px;
+}
+#Gallery img{
+    height: 200px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+#Gallery img:hover{
+    transform: scale(1.1);
 }
