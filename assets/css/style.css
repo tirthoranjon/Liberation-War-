@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 #header-section img{
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     border-radius: 50%;
 }
 footer .container .row img{
@@ -37,7 +37,7 @@ footer .container .row img{
 #documents img{
     height: 300px;
 }
-#documents .card:hover{
+.card:hover{
     background-color: aquamarine;
     transition: 0.3s;
 }
@@ -50,4 +50,19 @@ footer .container .row img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#historical img{
+    height: 350px;
+    
+}
+
+ .card-img{
+    overflow: hidden;
+    transition: 0.5s;
+}
+ .card:hover .card-img img{
+    transform: scale(1.10);
+}
+.card-img img{
+    height: 350px;
 }
