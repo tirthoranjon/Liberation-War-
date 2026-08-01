@@ -62,9 +62,11 @@ footer .container .row img{
 }
  .card:hover .card-img img{
     transform: scale(1.10);
+    overflow: hidden;
 }
 .card-img img{
     height: 350px;
+
 }
 #Gallery img{
     height: 200px;
@@ -72,6 +74,21 @@ footer .container .row img{
     transition: 0.3s ease;
 }
 
-#Gallery img:hover{
+/* #Gallery img:hover{
     transform: scale(1.1);
+    overflow: hidden;
+} */
+
+.active {
+    color: rgb(13, 14, 14) !important;
+    font-weight: bold;
+}
+#header-section li a:hover {
+    color:rgb(19, 19, 18) !important;
+    font-weight: bold;
+    overflow: hidden;
+    border-bottom: black solid 2px;
+}
+#header-section li a{
+    font-weight: bold;
 }
