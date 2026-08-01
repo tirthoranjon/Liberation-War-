@@ -92,3 +92,8 @@ footer .container .row img{
 #header-section li a{
     font-weight: bold;
 }
+#header-section{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
